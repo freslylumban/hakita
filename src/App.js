@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter, BrowserRouter, Route, Switch } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Header from './layouts/Header';
+import Footer from './layouts/Footer';
+import Home from './pages/Home';
+import Blog from './pages/Blog';
+import LoginRegister from './pages/LoginRegister';
+import NotFound from './pages/NotFound';
+
+const AppRoute = ({ layout: Layout, component: Component, ...rest }) => (
+  <Route {...rest} render={props => (
+    <Layout>
+      <Component {...props} />
+    </Layout>
+  )} />
+)
+
+const PageLayout = props => (
+  <section>
+    <Header />
+      {props.children}
+    <Footer />
+  </section>
+)
+
+const App = () => (
+  <BrowserRouter>
+    <Switch>
+      <AppRoute exact path="/" layout={PageLayout} component={Home} />
+      <AppRoute exact path="/blog" layout={PageLayout} component={Blog} />
+      <Route exact path="/loginregister" component={LoginRegister} />
+      <Route component={NotFound} />
+    </Switch>
+  </BrowserRouter>
+)
 
 export default App;
