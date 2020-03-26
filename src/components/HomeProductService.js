@@ -7,7 +7,7 @@ export default class HomeProductService extends Component {
   render() {
     return (
       <div class="hakita-card-prodserv">
-        <div class="container">
+        <div class="container" id="service">
           <h1 class="title--top">Product and Services</h1>
           <p class="subtitle--top">Apapun kebutuhan legal Anda, biar HAKITA yang urus.</p>
           <div class="row">

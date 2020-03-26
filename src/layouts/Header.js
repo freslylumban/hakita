@@ -54,7 +54,10 @@ class Header extends Component {
                         <a class="nav-link" href="#">Service</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Blog</a>
+                        <Link class="nav-link" to="/blog">
+                          Blog
+                        </Link>
+                        {/* <a class="nav-link" href="">Blog</a> */}
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
