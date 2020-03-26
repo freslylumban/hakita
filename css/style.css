@@ -565,13 +565,16 @@ p {
   height: 100vh;
   padding: 20px 100px;
 }
+.body-login-register .side-right .loginside {
+  width: 100%;
+}
 .body-login-register .side-right .loginside .box-img {
   margin: 0 0 20px;
   display: flex;
   justify-content: center;
 }
 .body-login-register .side-right .loginside .box-img img {
-  width: 50%;
+  width: 35%;
 }
 .body-login-register .side-right .loginside .box-form .unlock-password {
   border: none;
