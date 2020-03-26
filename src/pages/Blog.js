@@ -5,7 +5,7 @@ import BlogArtikel from './../components/BlogArtikel';
 class Blog extends Component {
   render() {
     return (
-      <div class="hakita-body">
+      <div className="hakita-body">
         <BlogHeader />
         <BlogArtikel />
       </div>

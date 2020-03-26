@@ -9,7 +9,7 @@ import HomeFAQ from './../components/HomeFAQ';
 class Home extends Component {
   render() {
     return (
-      <div class="hakita-body">
+      <div className="hakita-body">
         <HomeBanner />
         <HomeMediaObject />
         <HomeProductService />

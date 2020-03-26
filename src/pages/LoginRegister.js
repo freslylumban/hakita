@@ -32,19 +32,19 @@ class LoginRegister extends Component {
   render() {
     return (
       <div>
-        <div class="background-login-register"></div>
-          <div class="body-login-register">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-6">
-                  <div class="side-left">
-                    <div class="logo-hakita">
+        <div className="background-login-register"></div>
+          <div className="body-login-register">
+            <div className="container-fluid">
+              <div className="row">
+                <div className="col-6">
+                  <div className="side-left">
+                    <div className="logo-hakita">
                       <img src="./images/logo_hakita.png" alt="" />
                     </div>
                   </div>
                 </div>
-                <div class="col-6">
-                  <div class="side-right">
+                <div className="col-6">
+                  <div className="side-right">
                     {
                       parseInt(this.state.loadView) === parseInt(1) ? 
                       <Login typeLoginPassword={this.state.typeLoginPassword} changeView={this.changeView} passwordView={this.passwordView} /> : 
