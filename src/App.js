@@ -25,14 +25,14 @@ const PageLayout = props => (
 )
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
       <AppRoute exact path="/" layout={PageLayout} component={Home} />
       <AppRoute exact path="/blog" layout={PageLayout} component={Blog} />
       <Route exact path="/loginregister" component={LoginRegister} />
       <Route component={NotFound} />
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 )
 
 export default App;
