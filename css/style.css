@@ -1,0 +1,644 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url("../fonts/Nunito/Nunito-Regular.ttf");
+}
+body {
+  font-family: 'Nunito', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.dark-blue2 {
+  color: #1C4481;
+}
+.btn--hakita {
+  color: #FFFFFF;
+  background-color: #1C4181;
+  border-color: #1C4181;
+}
+.btn--hakita:hover {
+  color: #FFFFFF;
+  background-color: #275ab3;
+  border-color: #275ab3;
+}
+.hakita-header .top-hakita-header {
+  border-bottom: 1px solid #E5E5E5;
+}
+.hakita-header .top-hakita-header .navbar-full-width {
+  width: 100%;
+}
+.hakita-header .top-hakita-header .side-left {
+  display: flex;
+  align-items: center;
+}
+.hakita-header .top-hakita-header .side-left .p-email {
+  font-size: 14px;
+  margin: 0 20px 0 0;
+}
+.hakita-header .top-hakita-header .side-right a i {
+  margin: 0 15px;
+}
+.hakita-header .top-hakita-header .side-right a i:last-child {
+  margin: 0 0 0 15px;
+}
+.hakita-header .top-hakita-header .side-right a:hover {
+  text-decoration: none;
+}
+.hakita-header .top-hakita-header .side-right a:hover i {
+  color: #000000;
+}
+.hakita-header .top-hakita-header .side-right .register-button {
+  display: inline-block;
+  color: #000000;
+  font-size: 14px;
+  margin: 0 10px 0 0;
+}
+.hakita-header .top-hakita-header .side-right .register-button:hover {
+  color: #1C4181;
+}
+.hakita-header .hakita-header-nav .navbar-full-width {
+  width: 100%;
+  min-height: 80px;
+}
+.hakita-header .hakita-header-nav .hakita-logo-nav {
+  width: 120px;
+  height: 45px;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item {
+  margin: 0 10px;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item:last-child {
+  margin: 0 0 0 10px;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item .nav-link {
+  color: #0C0C0C;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item .nav-link:hover {
+  color: #1C4481;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item .nav-link i {
+  font-size: 24px;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item .nav-link.dropdown-toggle::after {
+  display: none;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item .dropdown-menu {
+  right: 0;
+  left: unset;
+  padding: 30px;
+  border: none;
+  border-radius: 0;
+  top: 130%;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item .dropdown-menu::before {
+  font-family: 'themify';
+  content: "\e610";
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item .dropdown-menu input[type="search"] {
+  width: 300px;
+  padding: 10px 20px 10px 30px;
+  border: none;
+  border-bottom: 1px solid #E5E5E5;
+}
+.hakita-header .hakita-header-nav .navbar-nav .nav-item .dropdown-menu input[type="search"]:focus {
+  outline: none;
+}
+.hakita-banner-top {
+  background-image: url(../images/main-hero-man2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hakita-banner-top .hakita-tag {
+  min-height: 520px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+@media (max-width: 767.98px) {
+  .hakita-banner-top .hakita-tag {
+    padding: 30px 10px;
+  }
+}
+.hakita-banner-top .hakita-tag h1 {
+  width: 65%;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+}
+@media (max-width: 767.98px) {
+  .hakita-banner-top .hakita-tag h1 {
+    width: 100%;
+  }
+}
+.hakita-banner-top .hakita-tag button {
+  width: fit-content;
+  background-color: #5089C7;
+  border: 1px solid #5089C7;
+  border-radius: 8px;
+  color: #FFFFFF;
+  padding: 16px 32px;
+}
+.hakita-media-object {
+  margin: 100px 0;
+}
+@media (max-width: 767.98px) {
+  .hakita-media-object .media {
+    margin: 0 0 40px;
+  }
+}
+.hakita-media-object .media .img--media {
+  width: 50px;
+}
+.hakita-media-object .media .media-body .title--media {
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+.hakita-card-prodserv {
+  margin: 100px 0;
+}
+.hakita-card-prodserv .title--top {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 48px;
+}
+.hakita-card-prodserv .subtitle--top {
+  text-align: center;
+  margin: 20px 20px 50px;
+}
+.hakita-card-prodserv .card {
+  border: none;
+}
+@media (max-width: 767.98px) {
+  .hakita-card-prodserv .card {
+    margin: 0 0 20px;
+  }
+}
+.hakita-card-prodserv .card .img--card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 180px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.hakita-card-prodserv .card .img--card img {
+  width: 100px;
+}
+.hakita-card-prodserv .card .card-body {
+  text-align: center;
+}
+.hakita-card-prodserv .card .card-body .card-title {
+  font-weight: 700;
+}
+.hakita-banner-bottom {
+  background-image: url(../images/success-rate-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hakita-banner-bottom .hakita-tag {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+@media (max-width: 767.98px) {
+  .hakita-banner-bottom .hakita-tag {
+    padding: 30px 10px;
+  }
+}
+.hakita-banner-bottom .hakita-tag h1 {
+  width: 65%;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+@media (max-width: 767.98px) {
+  .hakita-banner-bottom .hakita-tag h1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+.hakita-banner-bottom .hakita-tag h2 {
+  width: 65%;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0 0 15px;
+}
+@media (max-width: 767.98px) {
+  .hakita-banner-bottom .hakita-tag h2 {
+    width: 100%;
+    text-align: center;
+  }
+}
+.hakita-blog-card {
+  margin: 100px 0;
+}
+.hakita-blog-card .title--top {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 25px;
+}
+.hakita-blog-card .subtitle--top {
+  text-align: center;
+  color: #777777;
+  margin: 20px 20px 50px;
+}
+.hakita-blog-card .blog--card {
+  min-height: 180px;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 25px;
+}
+@media (max-width: 767.98px) {
+  .hakita-blog-card .blog--card {
+    margin: 0 0 40px;
+  }
+}
+.hakita-blog-card .blog--card .tag--card {
+  display: inline-block;
+  margin: 0 0 20px;
+}
+.hakita-blog-card .blog--card .tag--card p {
+  background-color: #5089C7;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+.hakita-blog-card .blog--card .title--card {
+  min-height: 100px;
+}
+.hakita-blog-card .blog--card .title--card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+.hakita-blog-card .blog--card .title--card p {
+  font-size: 14px;
+  color: #777777;
+}
+.hakita-blog-card .blog--card a {
+  color: #1C4481;
+  font-weight: bold;
+}
+.hakita-blog-card .divided--hr {
+  width: 20%;
+  margin: 70px auto;
+}
+.hakita-question {
+  margin: 100px 0;
+}
+.hakita-question .title--top {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 40px;
+}
+.hakita-question .question-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  padding: 16px;
+}
+@media (max-width: 767.98px) {
+  .hakita-question .question-card {
+    margin: 0 0 20px;
+  }
+}
+.hakita-question .question-card .faq--icon {
+  margin: 0 0 20px;
+}
+.hakita-question .question-card .faq--icon .box-icon {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1C4481;
+  border-radius: 50%;
+}
+.hakita-question .question-card .faq--icon .box-icon i {
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.hakita-question .question-card .tag--text {
+  min-height: 80px;
+}
+.hakita-question .question-card .tag--text p {
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+.hakita-question .question-card .tag--text p a {
+  color: #000000;
+}
+.hakita-header-blog {
+  background-color: #1C4481;
+  padding: 50px 0;
+}
+.hakita-header-blog h1 {
+  color: #FFFFFF;
+  font-size: 60px;
+  font-weight: 600;
+}
+.hakita-artikel-section {
+  margin: 70px 0;
+}
+.hakita-artikel-section .hakita-blog {
+  margin: 0 0 50px;
+}
+.hakita-artikel-section .hakita-blog .blog-box-img img {
+  width: 100%;
+  margin: 0 0 15px;
+}
+.hakita-artikel-section .hakita-blog .blog-box-title a {
+  text-decoration: none;
+}
+.hakita-artikel-section .hakita-blog .blog-box-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 0 5px;
+}
+.hakita-artikel-section .hakita-blog .blog-box-title p {
+  color: #777777;
+  margin: 0 0 10px;
+}
+.hakita-artikel-section .hakita-blog .blog-box-text p {
+  font-size: 18px;
+  margin: 0 0 15px;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #181B31;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  width: fit-content;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a p {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a i {
+  font-size: 24px;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a i:first-child {
+  margin: 0 15px 0 0;
+  transition: transform 1s cubic-bezier(0.2, 0.95, 0.25, 1);
+  transform-origin: left center;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a i:last-child {
+  margin: 0 0 0 15px;
+  display: none;
+  transition: transform 1s cubic-bezier(0.2, 0.95, 0.25, 1);
+  transform-origin: left center;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a:hover {
+  transition: all 0.3s ease;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a:hover i {
+  font-size: 24px;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a:hover i:first-child {
+  display: none;
+  transition: transform 1s cubic-bezier(0.2, 0.95, 0.25, 1);
+  transform-origin: left center;
+}
+.hakita-artikel-section .hakita-blog .blog-box-button a:hover i:last-child {
+  display: inline-block;
+  transition: transform 1s cubic-bezier(0.2, 0.95, 0.25, 1);
+  transform-origin: left center;
+}
+.hakita-aside .hakita-aside-search {
+  margin: 0 0 30px;
+  position: relative;
+}
+.hakita-aside .hakita-aside-search::before {
+  font-family: 'themify';
+  content: "\e610";
+  display: inline-block;
+  position: absolute;
+  top: 30%;
+  left: 15px;
+}
+.hakita-aside .hakita-aside-search input[type=search] {
+  padding: 10px 15px 10px 40px;
+  width: 100%;
+  height: 60px;
+  border: 1px solid #DEDEDE;
+}
+.hakita-aside .hakita-aside-search input[type=search]:focus {
+  outline: none;
+}
+.hakita-aside .hakita-aside-blogbox {
+  margin: 0 0 30px;
+}
+.hakita-aside .hakita-aside-blogbox .blogbox {
+  display: flex;
+  margin: 0 0 25px;
+}
+.hakita-aside .hakita-aside-blogbox .blogbox .img-box {
+  position: relative;
+  overflow: hidden;
+  width: 50%;
+  height: 80px;
+  margin: 0 10px 0 0;
+}
+@media (max-width: 767.98px) {
+  .hakita-aside .hakita-aside-blogbox .blogbox .img-box {
+    width: 30%;
+  }
+  .hakita-aside .hakita-aside-blogbox .blogbox .img-box img {
+    left: -30px;
+  }
+}
+.hakita-aside .hakita-aside-blogbox .blogbox .img-box img {
+  position: absolute;
+  left: -35px;
+  width: 150px;
+}
+.hakita-aside .hakita-aside-blogbox .blogbox .title-time a {
+  text-decoration-color: #000000;
+  color: #000000;
+}
+.hakita-aside .hakita-aside-blogbox .blogbox .title-time .title {
+  font-size: 14px;
+  color: #000000;
+}
+.hakita-aside .hakita-aside-blogbox .blogbox .title-time .time {
+  font-size: 12px;
+  color: #9E9E9E;
+}
+.hakita-aside .hakita-aside-comment {
+  margin: 0 0 30px;
+}
+.hakita-aside .hakita-aside-category {
+  margin: 0 0 30px;
+}
+.hakita-footer .top-footer-hakita {
+  background: #26272A;
+  color: #F4F4F4;
+  border-bottom: 1px solid #3A3B3C;
+  padding: 90px 0 70px;
+}
+.hakita-footer .top-footer-hakita h4 {
+  margin: 0 0 20px;
+}
+.hakita-footer .top-footer-hakita p {
+  font-size: 14px;
+  color: #92959b;
+  width: 90%;
+  margin: 0 0 20px;
+}
+.hakita-footer .top-footer-hakita p a {
+  color: #777777;
+}
+.hakita-footer .top-footer-hakita .socmed-hakita {
+  color: #777777;
+}
+.hakita-footer .top-footer-hakita .socmed-hakita a i {
+  font-size: 20px;
+  margin: 0 16px 0 0;
+  color: #777777;
+}
+.hakita-footer .top-footer-hakita .socmed-hakita a:hover {
+  text-decoration: none;
+}
+.hakita-footer .top-footer-hakita .socmed-hakita a:hover i {
+  color: #FFFFFF;
+}
+.hakita-footer .footer-hakita-copyright {
+  background: #212224;
+  color: #92959b;
+  text-align: center;
+  padding: 30px 10px;
+}
+.background-login-register {
+  background-image: url(../images/main-hero-man2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0.6;
+}
+.body-login-register .side-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.body-login-register .side-left .logo-hakita {
+  display: flex;
+  justify-content: center;
+  padding: 200px 0;
+  width: 100%;
+  border-right: 2px solid #1C4481;
+}
+.body-login-register .side-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px 100px;
+}
+.body-login-register .side-right .loginside .box-img {
+  margin: 0 0 20px;
+  display: flex;
+  justify-content: center;
+}
+.body-login-register .side-right .loginside .box-img img {
+  width: 50%;
+}
+.body-login-register .side-right .loginside .box-form .unlock-password {
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: fit-content;
+}
+.body-login-register .side-right .loginside .box-form .btn--hakita {
+  width: 100%;
+}
+.body-login-register .side-right .loginside .box-form .forgotpassword-register {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.body-login-register .side-right .loginside .box-form .forgotpassword-register button {
+  color: #1C4481;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+.body-login-register .side-right .loginside .box-form .forgotpassword-register button:hover {
+  color: #275ab3;
+  text-decoration: underline;
+}
+.body-login-register .side-right .registerside {
+  width: 100%;
+}
+.body-login-register .side-right .registerside h1 {
+  color: #1C4481;
+  text-align: center;
+  margin: 0 0 20px;
+}
+.body-login-register .side-right .registerside .box-form form {
+  width: 100%;
+}
+.body-login-register .side-right .registerside .box-form .unlock-password {
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: fit-content;
+}
+.body-login-register .side-right .registerside .box-form .btn--hakita {
+  width: 100%;
+}
+.body-login-register .side-right .registerside .box-form .forgotpassword-register {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+.body-login-register .side-right .registerside .box-form .forgotpassword-register button {
+  color: #1C4481;
+  border: none;
+  background: transparent;
+  padding: 0;
+}
+.body-login-register .side-right .registerside .box-form .forgotpassword-register button:hover {
+  color: #275ab3;
+  text-decoration: underline;
+}
+.hakita-notfoundpage {
+  background: #1484f5;
+  text-align: center;
+  height: 100vh;
+}
+.hakita-notfoundpage .notfound-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

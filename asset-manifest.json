@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/hakita-test/static/css/main.2fd7829d.chunk.css",
+    "main.js": "/hakita-test/static/js/main.82e9ca9a.chunk.js",
+    "main.js.map": "/hakita-test/static/js/main.82e9ca9a.chunk.js.map",
+    "runtime-main.js": "/hakita-test/static/js/runtime-main.5732bc53.js",
+    "runtime-main.js.map": "/hakita-test/static/js/runtime-main.5732bc53.js.map",
+    "static/js/2.560b72a6.chunk.js": "/hakita-test/static/js/2.560b72a6.chunk.js",
+    "static/js/2.560b72a6.chunk.js.map": "/hakita-test/static/js/2.560b72a6.chunk.js.map",
+    "index.html": "/hakita-test/index.html",
+    "precache-manifest.14d5784ab031fa9b0a3ad04fff13d25d.js": "/hakita-test/precache-manifest.14d5784ab031fa9b0a3ad04fff13d25d.js",
+    "service-worker.js": "/hakita-test/service-worker.js",
+    "static/css/main.2fd7829d.chunk.css.map": "/hakita-test/static/css/main.2fd7829d.chunk.css.map",
+    "static/js/2.560b72a6.chunk.js.LICENSE.txt": "/hakita-test/static/js/2.560b72a6.chunk.js.LICENSE.txt",
+    "static/media/404notfound.png": "/hakita-test/static/media/404notfound.ce47c044.png",
+    "static/media/Menyita-surat-KTP-SIM-kecelakaan-lalu-lintas-hakita-770x400.jpeg": "/hakita-test/static/media/Menyita-surat-KTP-SIM-kecelakaan-lalu-lintas-hakita-770x400.269a9937.jpeg",
+    "static/media/Penilangan-Tanpa-Surat-Tugas-Polisi-Hakita-770x400.png": "/hakita-test/static/media/Penilangan-Tanpa-Surat-Tugas-Polisi-Hakita-770x400.523ff9ce.png",
+    "static/media/contract_ps.png": "/hakita-test/static/media/contract_ps.7407d918.png",
+    "static/media/double-swipe-transaksi-kartu-kredit-ritel-hakita-scaled-770x400.jpg": "/hakita-test/static/media/double-swipe-transaksi-kartu-kredit-ritel-hakita-scaled-770x400.5baa1ca4.jpg",
+    "static/media/konvoi-mobil-motor-indonesia-hukum-hakita-scaled-770x400.jpg": "/hakita-test/static/media/konvoi-mobil-motor-indonesia-hukum-hakita-scaled-770x400.3d0343fd.jpg",
+    "static/media/perlindungan-belanja-online-penipu-online-hakita-scaled-770x400.jpg": "/hakita-test/static/media/perlindungan-belanja-online-penipu-online-hakita-scaled-770x400.d82988ab.jpg",
+    "static/media/permission_ps.png": "/hakita-test/static/media/permission_ps.5afae27f.png",
+    "static/media/tukang-parkir-depan-indomaret-hakita-770x400.jpeg": "/hakita-test/static/media/tukang-parkir-depan-indomaret-hakita-770x400.0815829c.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5732bc53.js",
+    "static/js/2.560b72a6.chunk.js",
+    "static/css/main.2fd7829d.chunk.css",
+    "static/js/main.82e9ca9a.chunk.js"
+  ]
+}
