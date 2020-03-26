@@ -4,7 +4,7 @@ export default class HomeFAQ extends Component {
   render() {
     return (
       <div class="hakita-question">
-        <div class="container">
+        <div class="container" id="contact">
           <h1 class="title--top">Have a question?</h1>
           <div class="row justify-content-center">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4">

@@ -4,7 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div class="hakita-footer">
-        <div class="top-footer-hakita">
+        <div class="top-footer-hakita" id="about">
           <div class="container">
             <div class="row">
               <div class="col-12 col-sm-12 col-md-8 col-lg-8">
