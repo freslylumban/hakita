@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hakita-test/precache-manifest.14d5784ab031fa9b0a3ad04fff13d25d.js"
+  "/hakita-test/precache-manifest.87fdf56940bf1e2c21354bf56a74531c.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hakita-test/static/css/main.2fd7829d.chunk.css",
-    "main.js": "/hakita-test/static/js/main.82e9ca9a.chunk.js",
-    "main.js.map": "/hakita-test/static/js/main.82e9ca9a.chunk.js.map",
+    "main.js": "/hakita-test/static/js/main.906693c2.chunk.js",
+    "main.js.map": "/hakita-test/static/js/main.906693c2.chunk.js.map",
     "runtime-main.js": "/hakita-test/static/js/runtime-main.5732bc53.js",
     "runtime-main.js.map": "/hakita-test/static/js/runtime-main.5732bc53.js.map",
     "static/js/2.560b72a6.chunk.js": "/hakita-test/static/js/2.560b72a6.chunk.js",
     "static/js/2.560b72a6.chunk.js.map": "/hakita-test/static/js/2.560b72a6.chunk.js.map",
     "index.html": "/hakita-test/index.html",
-    "precache-manifest.14d5784ab031fa9b0a3ad04fff13d25d.js": "/hakita-test/precache-manifest.14d5784ab031fa9b0a3ad04fff13d25d.js",
+    "precache-manifest.87fdf56940bf1e2c21354bf56a74531c.js": "/hakita-test/precache-manifest.87fdf56940bf1e2c21354bf56a74531c.js",
     "service-worker.js": "/hakita-test/service-worker.js",
     "static/css/main.2fd7829d.chunk.css.map": "/hakita-test/static/css/main.2fd7829d.chunk.css.map",
     "static/js/2.560b72a6.chunk.js.LICENSE.txt": "/hakita-test/static/js/2.560b72a6.chunk.js.LICENSE.txt",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.5732bc53.js",
     "static/js/2.560b72a6.chunk.js",
     "static/css/main.2fd7829d.chunk.css",
-    "static/js/main.82e9ca9a.chunk.js"
+    "static/js/main.906693c2.chunk.js"
   ]
 }
