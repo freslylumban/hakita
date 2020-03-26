@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hakita-test/static/css/main.2fd7829d.chunk.css",
-    "main.js": "/hakita-test/static/js/main.906693c2.chunk.js",
-    "main.js.map": "/hakita-test/static/js/main.906693c2.chunk.js.map",
+    "main.js": "/hakita-test/static/js/main.ff7b88e2.chunk.js",
+    "main.js.map": "/hakita-test/static/js/main.ff7b88e2.chunk.js.map",
     "runtime-main.js": "/hakita-test/static/js/runtime-main.5732bc53.js",
     "runtime-main.js.map": "/hakita-test/static/js/runtime-main.5732bc53.js.map",
-    "static/js/2.560b72a6.chunk.js": "/hakita-test/static/js/2.560b72a6.chunk.js",
-    "static/js/2.560b72a6.chunk.js.map": "/hakita-test/static/js/2.560b72a6.chunk.js.map",
+    "static/js/2.06c718cb.chunk.js": "/hakita-test/static/js/2.06c718cb.chunk.js",
+    "static/js/2.06c718cb.chunk.js.map": "/hakita-test/static/js/2.06c718cb.chunk.js.map",
     "index.html": "/hakita-test/index.html",
-    "precache-manifest.87fdf56940bf1e2c21354bf56a74531c.js": "/hakita-test/precache-manifest.87fdf56940bf1e2c21354bf56a74531c.js",
+    "precache-manifest.b27fcd1a9d612ebb65b8f92032e85333.js": "/hakita-test/precache-manifest.b27fcd1a9d612ebb65b8f92032e85333.js",
     "service-worker.js": "/hakita-test/service-worker.js",
     "static/css/main.2fd7829d.chunk.css.map": "/hakita-test/static/css/main.2fd7829d.chunk.css.map",
-    "static/js/2.560b72a6.chunk.js.LICENSE.txt": "/hakita-test/static/js/2.560b72a6.chunk.js.LICENSE.txt",
+    "static/js/2.06c718cb.chunk.js.LICENSE.txt": "/hakita-test/static/js/2.06c718cb.chunk.js.LICENSE.txt",
     "static/media/404notfound.png": "/hakita-test/static/media/404notfound.ce47c044.png",
     "static/media/Menyita-surat-KTP-SIM-kecelakaan-lalu-lintas-hakita-770x400.jpeg": "/hakita-test/static/media/Menyita-surat-KTP-SIM-kecelakaan-lalu-lintas-hakita-770x400.269a9937.jpeg",
     "static/media/Penilangan-Tanpa-Surat-Tugas-Polisi-Hakita-770x400.png": "/hakita-test/static/media/Penilangan-Tanpa-Surat-Tugas-Polisi-Hakita-770x400.523ff9ce.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5732bc53.js",
-    "static/js/2.560b72a6.chunk.js",
+    "static/js/2.06c718cb.chunk.js",
     "static/css/main.2fd7829d.chunk.css",
-    "static/js/main.906693c2.chunk.js"
+    "static/js/main.ff7b88e2.chunk.js"
   ]
 }

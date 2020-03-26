@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb1cd02c98deaaa82a2c589a775d2ace",
+    "revision": "c7c0a7cf008248c3cba77672c3f3d576",
     "url": "/hakita-test/index.html"
   },
   {
-    "revision": "1b91a1624e874489be26",
+    "revision": "6d0a0d1c229059a751d3",
     "url": "/hakita-test/static/css/main.2fd7829d.chunk.css"
   },
   {
-    "revision": "78ddebbe1e2714dbcdd2",
-    "url": "/hakita-test/static/js/2.560b72a6.chunk.js"
+    "revision": "490f75acd42430b9bc16",
+    "url": "/hakita-test/static/js/2.06c718cb.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/hakita-test/static/js/2.560b72a6.chunk.js.LICENSE.txt"
+    "url": "/hakita-test/static/js/2.06c718cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b91a1624e874489be26",
-    "url": "/hakita-test/static/js/main.906693c2.chunk.js"
+    "revision": "6d0a0d1c229059a751d3",
+    "url": "/hakita-test/static/js/main.ff7b88e2.chunk.js"
   },
   {
     "revision": "a98a989323b14e964058",
